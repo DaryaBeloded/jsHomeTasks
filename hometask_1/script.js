@@ -45,7 +45,7 @@ if(a && b || a == 0 || b == 0)
 			console.log("The product of " + a + " and " + b + " iquals " + (a * b));
 			break;
 		case '/':
-			console.log("The result of the division " + a + " and " + b + " iquals " + (a / b);
+			console.log("The result of the division " + a + " and " + b + " iquals " + (a / b));
 			break;
 		case '^':
 			console.log(Math.pow(a, b));
