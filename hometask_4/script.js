@@ -1,25 +1,25 @@
 //Task №2
-// var isTel = prompt("Enter a telephone number ");
+var isTel = prompt("Enter a telephone number ");
 
-// function isValidTelNumber(tel){
-// 	var regex = (/\+375[\- \(]?(24|25|29|33|44)[\- \)]?[1-9]{3}[\- ]?[0-9]{2}[\- ]?[0-9]{2}/);
-// 	if(regex.test(tel))
-// 		return tel;
-// 	else {
-// 		console.log("you loser! Try again");
-// 		return 0;
-// 	}
-// }
+function isValidTelNumber(tel){
+	var regex = (/\+375[\- \(]?(24|25|29|33|44)[\- \)]?[1-9]{3}[\- ]?[0-9]{2}[\- ]?[0-9]{2}/);
+	if(regex.test(tel))
+		return tel;
+	else {
+		console.log("you loser! Try again");
+		return 0;
+	}
+}
 
-// var tel = isValidTelNumber(isTel);
-// if(tel){
-// 	var arr = tel.replace(/[^0-9]/g,"").split("");
-// 	console.log(arr);
-// 	arr.splice(0,0,"+");
-// 	arr.splice(4,0,"(");
-// 	arr.splice(7,0,")");
-// 	console.log(arr.join(""));
-// }
+var tel = isValidTelNumber(isTel);
+if(tel){
+	var arr = tel.replace(/[^0-9]/g,"").split("");
+	console.log(arr);
+	arr.splice(0,0,"+");
+	arr.splice(4,0,"(");
+	arr.splice(7,0,")");
+	console.log(arr.join(""));
+}
 //-------------------------------------------------------------------------------------------------
 
 //Task №1
@@ -33,3 +33,4 @@ document.write("<table border='1'><tr><th>Property</th><th>Result</th></tr>");
 for(var i = 0; i<arr.length; i++){ 
 document.write("<tr><th width='60%'><p>" + arr[i] + "<p></th><th width='40%'><p>" + arr1[i] + "</p></th></tr>"); 
 }
+document.write("</table>");
