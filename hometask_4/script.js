@@ -2,7 +2,7 @@
 var isTel = prompt("Enter a telephone number ");
 
 function isValidTelNumber(tel){
-	var regex = (/\+375[\- \(]?(24|25|29|33|44)[\- \)]?[1-9]{3}[\- ]?[0-9]{2}[\- ]?[0-9]{2}/);
+	var regex = (/\+375( \()?|[\- \(]?(24|25|29|33|44)[\- \)]?|( \))?[1-9]{3}[\- ]?[0-9]{2}[\- ]?[0-9]{2}/);
 	if(regex.test(tel))
 		return tel;
 	else {
