@@ -1,0 +1,32 @@
+table {
+	/*width: 500px;
+	height: 500px;*/
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid black;
+	width: 10%;	
+	background: white;
+}
+tr {
+	border: 1px solid black;
+	width: 10%;
+}
+.simple{
+	background: #00FF7F;
+	font-size: 25px;
+	color: green;
+}
+[a="notSimple"]{
+	background: #FA8072;
+}
+/*.notSimple{
+	background: #FA8072;
+}*/
+#first{
+	background: #eee;
+}
+.yellow{
+	background: yellow;
+}

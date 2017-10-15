@@ -1,0 +1,14 @@
+.oclock{
+	height: 348px;
+	background: #FFE4C4;
+}
+	
+.p-oclock {
+    margin: 0 auto;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    font-size: 122px;
+    font-family: fantasy;
+    color: #800000;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+.main{
+	position: absolute;
+ 	bottom: 50px;
+ 	right: 50px;
+}
+.okno{
+    width: 270px;
+    padding: 5px;
+    margin-top: 30px;
+    background: linear-gradient(#40E0D0, #008B8B);
+    border-radius: 5px;
+    box-shadow: 2px 3px 6px 0px #666;
+}
+#name, #city {
+    font-size: 18px;
+    font-weight: bold;
+}
+p>b {
+	font-weight: normal;
+    font-family: monospace;
+    color: #000080;
+}
+
+
