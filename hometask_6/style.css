@@ -1,0 +1,57 @@
+button, input {
+	outline: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+.calculator {
+	margin-top: 10px;
+    margin-left: 10px;
+    width: 305px;
+}
+.div1 {
+	height: 25%;
+}
+.main{
+	margin-top: 11px;
+}
+table {
+	width: 305px;
+}
+.digits, .operation, .memory, .eject {
+	margin-left: 20px;
+    padding: 5px 10px;
+}
+.operation{
+    background: linear-gradient(#FA8072, #B22222);
+    border: 1px solid #8B0000;
+}
+.memory {
+	    margin-left: 15px;
+    background: linear-gradient(#fff, #9370DB, #483D8B);
+    border: 1px solid #4B0082;
+}
+.eject {
+	    margin-left: 9px;
+    background: linear-gradient(#fff, #6495ED, #4169E1);
+    border: 1px solid #00008B;
+}
+td {
+	width: 25%;
+}
+input {
+	width: 241px;
+    height: 15px;
+    box-shadow: inset 1px 1px 2px 0px #87CEEB;
+    border-radius: 5px;
+    border: 1px solid #87CEEB;
+    background: #FFFFE0;
+    padding: 6px;
+}
+.clear {
+	background: linear-gradient(#fff, #B0E0E6, #87CEFA);
+ 	border: 1px solid #6495ED;
+}
+.calculated {
+	background: linear-gradient(#98FB98, #90EE90,#3CB371);
+    border: 1px solid #3CB371;	
+}

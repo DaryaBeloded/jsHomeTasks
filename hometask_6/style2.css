@@ -1,0 +1,30 @@
+form{
+	display: inline-grid;
+}
+input {
+	width: 241px;
+    height: 15px;
+    box-shadow: inset 1px 1px 2px 0px #87CEEB;
+    border-radius: 5px;
+    border: 1px solid #87CEEB;
+    background: #FFFFE0;
+    padding: 6px;
+    outline: none;
+    margin-top:10px;
+}
+button{
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+}
+.true {
+	box-shadow: inset 1px 1px 2px 0px #32CD32;
+	border: 2px solid #006400;
+	background: #98FB98;
+}
+.false {
+	box-shadow: inset 1px 1px 2px 0px #B22222;
+	border: 2px solid #FF0000;
+	background: #E9967A;
+}
