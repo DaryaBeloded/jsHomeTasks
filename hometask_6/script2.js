@@ -83,25 +83,23 @@ age.addEventListener("input", function(){
 })
 
 btn.addEventListener("click", function(){
-	if(name1.getAttribute("class")!="true" || phone.getAttribute("class")!="true" || email.getAttribute("class")!="true" || site.getAttribute("class")!="true" || age.getAttribute("class")!="true"){
+	if(name1.getAttribute("class")=="true" && phone.getAttribute("class")=="true" && email.getAttribute("class")=="true" && site.getAttribute("class")=="true" && age.getAttribute("class")=="true"){
+		this.addEventListener("click", function(){
+			alert("отправил!");
+		})
+	}
+	else {
 		for(var i = 0; i < document.getElementsByTagName("input").length; i++){
 				if(document.getElementsByTagName("input")[i].getAttribute("class")=="true"){
 					continue;
 				}
 				else {
-					while(document.getElementsByTagName("input")[i].getAttribute("class")=="true"){
+					// while(document.getElementsByTagName("input")[i].getAttribute("class")=="true"){
 						document.getElementsByTagName("input")[i].focus();
-					}
+					// }
 				}
 		}
-		
 	}
-	else {
-		// this.addEventListener("submit", function(){
-		alert("отправил!");
-		// return false;
-		// })
-	}	
 	
 })
 
