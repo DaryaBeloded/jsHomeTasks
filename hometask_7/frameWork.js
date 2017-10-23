@@ -33,12 +33,12 @@ var FrameWork = {
 	},
 	Get: {
 		ById: function(atr){
-			document.getElementById(atr);
+			return document.getElementById(atr);
 		},
 		ByTagName: function(atr, i){
 			return document.getElementsByTagName(atr)[i];
 		},
-		ByClassName: function(atr){
+		ByClassName: function(atr, i){
 			return document.getElementsByClassName(atr)[i];
 		},
 		Selector: function(css){

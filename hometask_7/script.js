@@ -19,9 +19,9 @@ FrameWork.Event.add("keypress", input, function(e){
 // 	alert("Hi");
 // }
 // FrameWork.Event.add("click", bt, f);
-// FrameWork.Event.remove("click", bt, f);
 // var event1 = new Event("click");
-// FrameWork.Event.dispatch(event1, bt)
+// FrameWork.Event.dispatch(event1, bt);
+// FrameWork.Event.remove("click", bt, f);
 // var div = FrameWork.Get.ByTagName("div", 0);
 // var p1 = FrameWork.create("p");
 // var bt1 = FrameWork.create("button");
