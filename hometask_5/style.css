@@ -8,6 +8,9 @@ td {
 	border: 1px solid black;
 	width: 10%;	
 	background: white;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
 }
 tr {
 	border: 1px solid black;
@@ -15,11 +18,32 @@ tr {
 }
 .simple{
 	background: #00FF7F;
-	font-size: 25px;
 	color: green;
 }
-[a="notSimple"]{
+.notSimple{
 	background: #FA8072;
+}
+.notSimple:before{
+	display: block;
+	    content: "";
+    width: 144%;
+    border-top: 2px solid pink;
+    animation: show 0.5s linear;
+    transform: rotate(45deg);
+    /* margin-left: -8px; */
+    position: relative;
+    top: 18px;
+    left: -8px;
+}
+@keyframes show{
+	0%{
+		width: 0;
+		top: 0;
+		left: 0;
+	}
+	100%{
+		
+	}
 }
 /*.notSimple{
 	background: #FA8072;
