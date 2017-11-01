@@ -1,4 +1,4 @@
-var FrameWork = {
+var fw = {
 	append: function(el1, el2){
 		return el1.appendChild(el2);
 	},
@@ -46,6 +46,20 @@ var FrameWork = {
 		},
 		SelectorAll: function(css, i){
 			return document.querySelectorAll(css)[i];
+		}
+	},
+	width: function(el){
+		return el.getBoundingClientRect().width;
+	},
+	height: function(el){
+		return el.getBoundingClientRect().height;
+	},
+	css: function(el, prop, value){
+		if(arguments.length == 3){
+			return el.style.cssText = prop + ":" + value; 
+		}
+		if(arguments.length == 2){
+			return window.getComputedStyle(el).prop;
 		}
 	}
 }

@@ -1,5 +1,5 @@
-var input = FrameWork.Get.ByTagName("input", 0);
-var bt = FrameWork.Get.ByTagName("button", 0);
+var input = fw.Get.ByTagName("input", 0);
+var bt = fw.Get.ByTagName("button", 0);
 
 input.focus();
 // input.addEventListener("keypress", function(e){
@@ -8,7 +8,7 @@ input.focus();
 // 	}
 // 	e.preventDefault();
 // })
-FrameWork.Event.add("keypress", input, function(e){
+fw.Event.add("keypress", input, function(e){
 	if(e.keyCode >= 48 && e.keyCode <= 57){
 		this.value += e.key;
 	}

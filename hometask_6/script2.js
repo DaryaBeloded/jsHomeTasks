@@ -24,7 +24,7 @@ name1.addEventListener("input", function(){
 
 phone.addEventListener("input", function(){
 	this.addEventListener("blur", function(){
-		if((/\+375 ?[ \(]?(24|25|29|33|44)[ \)]? ?[1-9]{3}[\- ]?[0-9]{2}[\- ]?[0-9]{2}/).test(this.value)){
+		if((/\+375 ?[ \(]?(24|25|29|33|44)[ \)]? ?[1-9]{1}[0-9]{2}[\- ]?[0-9]{2}[\- ]?[0-9]{2}/).test(this.value)){
 			this.className = "true";
 			div.children[0].innerText = "";
 		}
