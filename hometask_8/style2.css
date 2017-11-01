@@ -1,0 +1,19 @@
+.main {
+	width: 100%;
+	margin: 0;
+}
+
+.context {
+	border: 1px solid black;
+	width: 145px;
+	height: 156px;
+	text-align: center;
+}
+.context>div{
+	border: 1px solid black;
+
+}
+p{
+	margin: 0;
+	padding: 16px;
+}
