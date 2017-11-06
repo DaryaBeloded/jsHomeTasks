@@ -1,0 +1,98 @@
+#maindiv {
+  height: 894px;
+}
+p {
+  font-size: 17px;
+}
+table{
+  height: 100%; 
+  width: 100%;
+  margin-top: 15px;
+}
+#back {
+  height: 273px;
+}
+img{
+  width: 100%;
+  height: 273px;
+}
+
+button {
+  height: 48px;
+  padding: 10px;
+  margin-top: 15px;
+}
+span{
+  float: left;
+  top: 6px;
+  font-size: 30px;
+  left: 11px;
+}
+
+.block {
+  height: 279px;
+  width: 185px;
+  margin: 0 auto;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1.5s;
+}
+.rotated1{
+  -webkit-transform: rotateY(180deg);
+}
+
+.rotated2{
+  -webkit-transform: rotateY(180deg);
+}
+
+.side{
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -webkit-box-shadow: 0 2px 5px #666;
+}
+.front{
+  height: 270px;
+  width: 100%;
+}
+.back{
+  height: 273px;
+  width: 100%;
+  -webkit-transform: rotateY(180deg);
+}
+
+select {
+  width: 200px;
+  height: 48px;
+  font-size: 17px;
+  position: absolute;
+  top: 15px;
+  left: 359px;
+}
+
+td {
+  width: 12.5%;
+}
+
+#timer{
+  position: absolute;
+  top: 40px;
+  right: 2%;
+}
+
+#count{
+  position: absolute;
+  top: 20px;
+  right: 2%;
+}
+
+#hint {
+  width: 108px;
+}
+
+#audio{
+  position: absolute;
+  top: 15px;
+}
+
+.light{
+  border: 4px solid red;
+}
