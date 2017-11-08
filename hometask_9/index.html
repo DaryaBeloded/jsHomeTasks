@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HomeTask_9</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div style="height: 98px;width: 189px;">
+			<form style="float: left;">
+				<select style="height: 21px;">
+					<option value="add_product">add product</option>
+					<option value="add_food_product">add food product</option>
+					<option value="add_shop">shop</option>
+					<!-- <option value="add_market">add market</option> -->
+				</select>
+			</form>
+			<button type="button" style="float: right;">choose</button>
+		</div>
+		<div class="add_product false">
+			<form>
+				<input type="text" placeholder="title of product...">
+				<input type="text" placeholder="type of product...">
+				<input type="text" placeholder="price of product...">
+				<input type="text" placeholder="release date YYYY-MM-DD...">
+				<button type="button">add</button>
+			</form>
+		</div>
+		<div class="add_food_product false">
+			<form>
+				<input type="text" placeholder="title of product...">
+				<input type="text" placeholder="type of product...">
+				<input type="text" placeholder="price of product...">
+				<input type="text" placeholder="date of release YYYY-MM-DD...">
+				<input type="text" placeholder="valid date of YYYY-MM-DD...">
+				<button type="button">add</button>
+			</form>
+		</div>
+		<div class="add_shop false">
+			<div>
+				<button type="button" id="add_shop">add shop</button>
+				<button type="button" id="full_price">fuul price of products</button>
+				<button type="button" id="add_N">add N product</button>
+				<button type="button" id="remove_N">remove N product</button>
+				<button type="button" id="sell_N">sell N product</button>
+				<button type="button" id="info">info about shop</button>
+			</div>
+			<form class="false">
+				<input type="text" placeholder="enter a title of shop...">
+				<input type="text" placeholder="enter a address of shop...">
+				<input type="text" placeholder="enter a markup of shop...">
+				<input type="text" placeholder="enter a income of shop...">
+				<button type="button" id="add_shop2">add</button>
+			</form>
+			<form class="false">
+				<input type="text" placeholder="number of products">
+				<select>
+				</select>
+				<select>
+				</select>
+				<button type="button" id="add_N2">add</button>
+			</form>
+			<form class="false">
+				<select>
+				</select>
+				<button type="button" id="full_price2">add</button>
+				<input type="text">
+			</form>
+			<form class="false">
+				<input type="text" placeholder="number of products">
+				<select>
+				</select>
+				<select>
+				</select>
+				<button type="button" id="remove_N2">add</button>
+			</form>
+		</div>
+		<div class="add_shop false">
+			<form>
+				<input type="text" placeholder="enter a title of market...">
+				<select class="products">
+				</select>
+			</form>
+		</div>
+		<script src = "script.js"></script>
+	</body>
+</html>
