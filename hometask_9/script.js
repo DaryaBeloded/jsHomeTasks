@@ -58,9 +58,10 @@ function FoodProduct(title, type, price, releaseDate, validDate){
 }
 // FoodProduct.prototype = new Product();
 FoodProduct.prototype = Object.create(Product.prototype);
-FoodProduct.prototype = {
-	constructor: FoodProduct
-}
+FoodProduct.prototype.constructor = FoodProduct;
+// FoodProduct.prototype = {
+// 	constructor: FoodProduct
+// }
 
 // var food1 = new FoodProduct("goods1", "type1", 7300, new Date("2017-11-09"), new Date("2017-11-10"));
 // var food7 = new FoodProduct("goods1", "type1", 7300, new Date("2017-11-09"), new Date("2017-11-10"));
@@ -136,7 +137,6 @@ Shop.prototype.sell = function(n, pr){
 	return false;
 }
 Shop.prototype.toString = function(){
-	enumerable: false;
 	console.log("title: " + this.title + "; \n address: " + this.address + "; \n products: " + this.products + "; \n markup: " + this.markup + "; \n income: " + this.income + "; \n");
 	return this.title + " " + this.address + " " + this.products + " " + this.markup + " " + this.income;
 }

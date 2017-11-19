@@ -69,9 +69,19 @@ var fw = {
 		return elem.clientLeft; 
 	},
 	ajax: function(m, p, f){
-		var xhr = new XMLHttpRequest();
-		xhr.open(m, p, true);
-		xhr.onload = f;
-		xhr.send();
+		var  change  =  function () {
+			var xhr =  new  XMLHttpRequest ();
+			xhr.open (m, p, true);
+			xhr.onload  =  function () {
+				var text =  this.responseText;
+				f(text);
+			}
+			xhr.null();
+		}
+
+		window.onchange  =  function(){
+			change ();
+		}
+		
 	}
 }

@@ -1,0 +1,21 @@
+li {
+	display: inline-flex;
+	margin-left: 44px;
+}
+#content{
+	margin-left: 84px;
+}
+.ul1{
+	margin-left: -84px;
+}
+.ul1>li{
+	display: list-item;
+	list-style-type: none;
+}
+p{
+	font-weight: bold;
+}
+#content1{
+	margin-top: 143px;
+    margin-left: 82px;
+}

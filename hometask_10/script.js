@@ -35,25 +35,25 @@ var settings = {
 		handler: function(){}
 	}
 }
-var change = function(){
+var change1 = function(){
 	var path = settings[location.hash].path; //location.hash -текущий hash в адресной строке
 	var callback = settings[location.hash].handler;
-	// var xhr = new XMLHttpRequest();
-	// xhr.open("GET", path, true); //true - для ассинхронного выполнения (AJAXa)
-	// xhr.onload = function(){
-	// 	div.innerHTML = this.responseText;
-	// 	callback();
-	// }
-	// xhr.send();
-	fw.ajax("GET", path, function(){
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET", path, true); //true - для ассинхронного выполнения (AJAXa)
+	xhr.onload = function(){
 		div.innerHTML = this.responseText;
 		callback();
-	})
+	}
+	xhr.send();
+	// fw.ajax("GET", path, function(text){
+	// 	div.innerHTML = text;
+	// 	callback();
+	// })
 }
 window.onhashchange = function(){
-	change();
+	change1();
 }
 
-if(location.hash in settings){ 
-	change();
-}
+// if(location.hash in settings){ 
+// 	change();
+// }
