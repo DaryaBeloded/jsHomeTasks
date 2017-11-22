@@ -1,0 +1,10 @@
+[
+							{
+								"name" : "clothes",
+								"items" : 	"maleClothes.json"
+							},
+							{
+								"name" : "footwear",
+								"items" : 	"maleFootwear.json"
+							}
+						]

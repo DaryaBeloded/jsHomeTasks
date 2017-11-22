@@ -1,0 +1,24 @@
+.main {
+	border: 1px solid black;
+	margin-top: 30px;
+	width: 65%;
+	float: left;
+}
+.wordBt {
+	width: 28%;
+	float: right;
+	border: 1px solid black;
+}
+.press {
+	background: linear-gradient(#FFFFFF, #E6E2E8);
+	border: 0.5px solid blue;
+
+}
+button {
+	background: linear-gradient(#E6E2E8, #FFFFFF);
+	border: 0.5px solid #E6E0D8;
+}
+button, select, input {
+	outline: none;
+	margin: 5px;
+}

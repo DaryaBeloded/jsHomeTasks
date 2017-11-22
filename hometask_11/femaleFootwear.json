@@ -1,0 +1,10 @@
+[
+	{
+		"itemName" : "sneakers for women",
+		"img": ["7.jpg", "8.jpg", "9.jpg"]
+	},
+	{
+		"itemName" : "shoes for women",
+		"img": ["10.jpg", "11.jpg", "12.jpg"]
+	}
+]
