@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomeTask_13</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<canvas width="1000" height="650" id="canvas"></canvas>
+	<br>
+	<button type="button" id="origin">origin</button>
+	<button type="button" id="bw">black/white</button>
+	<button type="button" id="negative">negative</button>
+	<button type="button" id="sepia">sepia</button>
+	<hr>
+	<video id="video" width="500" height="250" controls loop src="T-Fest-Улети-720HD-[VKlipe.com].mp4"></video>
+	<canvas id="canvas1" width="500" height="250"></canvas>
+	<br>
+	<input type="button" value="invert" onclick="filter = invertFilter;"/>
+	<input type="button" value="none" onclick="filter = noneFilter;"/>
+	<input type="button" value="sepiaVid" onclick="filter = sepiaFilter;"/>
+	<script src="script.js"></script>
+</body>
+</html>
