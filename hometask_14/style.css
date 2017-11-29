@@ -1,0 +1,83 @@
+.visual {
+    height: 58px;
+    width: 408px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: #363636;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+img {
+          width: 71px;
+    margin-right: 10px;
+}
+.playList {
+     margin-left: 20px;
+    width: 408px;
+}
+.sendPlay {
+           margin-left: 10px;
+    float: right;
+}
+.main {
+      height: 58px;
+    width: 408px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 5px; */
+    /* background: black; */
+    /* padding-top: 12px; */
+    /* padding: 0; */
+    margin-left: 20px;
+    /* position: absolute; */
+}
+#fullSong {
+    /* position: absolute; */
+    height: 20px;
+    background: white;
+    /* margin-top: 20px; */
+    /* top: 20px; */
+    width: 292px;
+
+}
+#current {
+position: absolute; */
+    height: 20px;
+    background: #a2b5;
+    /* margin-top: 20px; */
+    /* top: 20px; */
+    /* width: 73%; */
+    margin-top: -20px;
+    height: 20px;
+}
+#time {
+	color: white;
+
+float: right;
+
+margin-right: 15px;
+
+margin-top: -20px;
+}
+#subDiv {
+
+    height: 20px;
+ position: relative;
+    /* margin-top: 20px; */
+    /* top: 20px; */
+    /* width: 73%; */
+    margin-top: -20px;
+    height: 20px;
+}
+button {
+	    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    background: #363636;
+    margin: 0 5px 0 5px;
+    outline: none
+}
+input {
+	    margin-top: -27px;
+}
