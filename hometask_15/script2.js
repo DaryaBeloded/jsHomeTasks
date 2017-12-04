@@ -8,12 +8,14 @@ window.y1 = 0;
 
 window.onload = function(){
 	if(localStorage.draw){
+		context.beginPath();
 		var arr = localStorage.draw.split(/\s{1,}/);
 		for(var i = 0; i < arr.length; i+=4){
 			context.moveTo(arr[i], arr[i+1]);
 			context.lineTo(arr[i+2], arr[i+3]);
-			context.stroke();
+			
 		}
+		context.stroke();
 	}
 }
 
